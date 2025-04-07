@@ -8,7 +8,7 @@ A React application showcasing art galleries, paintings, and artists built with 
 
    ```
    git clone
-   cd comp4513assignment2
+   cd Web3Assignment2
    ```
 
 2. **Install dependencies with Yarn**
@@ -20,13 +20,13 @@ A React application showcasing art galleries, paintings, and artists built with 
 3. **Start the development server**
 
    ```
-   yarn dev
+   yarn run dev
    ```
 
 4. **Build for production**
 
    ```
-   yarn build
+   yarn run build && yarn run preview
    ```
 
 5. **Access the application**
