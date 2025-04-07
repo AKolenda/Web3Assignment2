@@ -30,7 +30,7 @@ A React application showcasing art galleries, paintings, and artists built with 
    ```
 
 5. **Access the application**
-   Open [http://localhost:5173](http://localhost:5173) in your browser
+   Open [http://localhost:4173](http://localhost:4173) in your browser
 
 ## Features
 
