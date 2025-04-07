@@ -1,0 +1,13 @@
+{
+  "framework": "vite",
+  "buildCommand": "yarn build",
+  "devCommand": "yarn dev",
+  "installCommand": "yarn install",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://comp4513assignment1.onrender.com/api/:path*"
+    }
+  ]
+}

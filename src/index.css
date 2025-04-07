@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --primary: gray;
+
+  /* Dominant painting colors */
+  --color-blue: #609cd4;
+  --color-orange: #f07c34;
+  --color-green: #78ac44;
+  --color-yellow: #ffc404;
+}
+
+.login-bg {
+  /* Force the container to be smaller by its margin (2rem total) */
+  height: calc(100svh - 2.5rem);
+  background-image: var(--bg-image);
+  /* Resize the background image to fit inside the container */
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+/* Color swatches classes */
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.color-blue {
+  background-color: var(--color-blue);
+}
+.color-orange {
+  background-color: var(--color-orange);
+}
+.color-green {
+  background-color: var(--color-green);
+}
+.color-yellow {
+  background-color: var(--color-yellow);
+}
